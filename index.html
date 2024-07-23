@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rohit image gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Image gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to the home section of image gallery. Here are some images which are stored in gallery :</p>
+            <div class="home-gallery">
+                <h3>Gallery</h3>
+                <div class="gallery">
+                    <img src="image1.jpeg" alt="Description of image 1">
+                    <img src="image2.jpeg" alt="Description of image 2">
+                    <img src="image3.jpeg" alt="Description of image 3">
+                    <img src="image4.jpeg" alt="Description of image 4">
+                    <img src="image5.jpeg" alt="Description of image 5">
+                    <img src="image6.jpeg" alt="Description of image 6">
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="image1.jpeg" alt="Description of image 1">
+                <img src="image2.jpeg" alt="Description of image 2">
+                <img src="image3.jpeg" alt="Description of image 3">
+                <img src="image4.jpeg" alt="Description of image 4">
+                <img src="image5.jpeg" alt="Description of image 5">
+                <img src="image6.jpeg" alt="Description of image 6">
+            </div>
+            <button id="addPhotoButton">Add Photo</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Professional Web Page. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
