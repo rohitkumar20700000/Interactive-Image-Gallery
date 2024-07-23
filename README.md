@@ -1,1 +1,1 @@
-![image](https://github.com/user-attachments/assets/f17f5701-57e7-4f79-aa34-bec20e905193)
+![image](https://github.com/rohitkumar20700000/Interactive-Image-Gallery/blob/main/output.png)
